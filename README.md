@@ -2,7 +2,6 @@
 
 This guide explains how to set up a Competitive Programming (CP) environment using VS Code, GCC, and terminal automation.
 
----
 
 ## Step-by-Step Setup
 
@@ -11,7 +10,6 @@ This guide explains how to set up a Competitive Programming (CP) environment usi
 2. Download from: https://code.visualstudio.com/download
 3. Instal and go to the folder where download the file
 
----
 
 ### ✅ Step 4–5: Install VS Code
 4. Copy your downloaded file name  
@@ -20,7 +18,6 @@ This guide explains how to set up a Competitive Programming (CP) environment usi
 sudo apt install ./your-vscode-file-name.deb
 ```
 
----
 
 ### ✅ Step 6–7: Install GCC Compiler
 6. Install compiler:
@@ -34,13 +31,11 @@ sudo dnf install gcc     # Fedora
 gcc --version
 ```
 
----
 
 ### ✅ Step 8–9: Create Project
 8. Open VS Code and create a folder  
 9. Create a file like `test.c` or `basic.c`
 
----
 
 ### ✅ Step 10–11: Install Extensions
 Install these extensions:
@@ -49,7 +44,6 @@ Install these extensions:
 - C/C++ Extension Pack (Microsoft)
 - C/C++ Compiler Run (danielpinto8zz6)
 
----
 
 ### ✅ Step 12–13: Write and Run Code
 
@@ -66,14 +60,12 @@ int main() {
 - Save file  
 - Click Run → Output will show in terminal  
 
----
 
 ### ✅ Step 14: Create Files
 Create:
 - `input.txt`
 - `output.txt`
 
----
 
 ### ✅ Step 15–16: Configure tasks.json
 
@@ -141,7 +133,6 @@ Replace with:
 }
 ```
 
----
 
 ### ✅ Step 17: Run Program
 
@@ -154,7 +145,6 @@ Ctrl + Shift + B
 ✔ Output → `output.txt`  
 ✔ Execution stats → `sys.txt`  
 
----
 
 ## 📂 Folder Structure
 
@@ -169,7 +159,6 @@ cp-template/
     └── tasks.json
 ```
 
----
 
 ## 🎯 Features
 
@@ -178,6 +167,5 @@ cp-template/
 - Time & memory tracking  
 - Clean workflow  
 
----
 
 ## 🏁 THINK.SOLVE.CODE!
